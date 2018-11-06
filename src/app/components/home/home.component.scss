@@ -1,0 +1,135 @@
+.home {
+  header {
+    height: auto;
+    width: 100%;
+
+    .pages {
+      height: 800px;
+      width: 100%;
+
+      .page {
+        height: 100%;
+        width: 100%;
+        background: url("../../../assets/images/background1.png");
+        background-position: 50% 80%;
+
+        .container {
+          height: 100%;
+          .text {
+            position: relative;
+            top: 30%;
+            width: 50%;
+
+            .sub-title {
+              h3 {
+                font-size: 1.5rem;
+                color: rgba(255, 255, 255, 0.7);
+                font-family: "Quicksand-Light";
+                span {
+                  color: #fff;
+                  font-family: "Quicksand-Bold";
+                }
+              }
+            }
+            .title {
+              padding: 50px 0px;
+
+              h1 {
+                font-weight: 500;
+                font-size: 2.5rem;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .body {
+    .section-one {
+      margin: 0 auto;
+      height: 200px;
+      width: 100%;
+      text-align: center;
+      .container {
+        background: #fff;
+        position: relative;
+        top: -100px;
+        display: flex;
+        .column {
+          padding: 40px 0px;
+          flex: 1;
+          h3 {
+            font-size: 2.5rem;
+            font-family: "Quicksand-Bold";
+            color: #333333;
+          }
+          h4 {
+            padding: 10px 0px;
+            color: #333333;
+            font-family: "Quicksand-Bold";
+          }
+        }
+      }
+    }
+    .section-three {
+      height: 850px;
+      background: #f1f1f1;
+      .container {
+        padding: 100px 0px;
+        display: flex;
+        justify-content: space-between;
+        .right {
+          display: inline-block;
+          padding: 40px 80px;
+          flex: 2;
+          width: 70%;
+
+          h2 {
+            font-family: "Heebo-Regular";
+            font-weight: 300;
+            color: #333;
+          }
+          h1 {
+            margin: 15px 0px;
+            font-family: "Heebo-Bold";
+            color: #333;
+          }
+          p {
+            font-family: "Heebo-Regular";
+            color: #777777;
+            padding-bottom: 20px;
+          }
+
+          a {
+            padding: 10px 40px;
+            background: #5999ee;
+            border-radius: 10px;
+            -webkit-box-shadow: -1px 0px 25px -5px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: -1px 0px 25px -5px rgba(0, 0, 0, 0.75);
+            box-shadow: -1px 0px 25px -5px rgba(0, 0, 0, 0.75);
+          }
+        }
+        .left {
+          padding: 0px 30px;
+          height: 40%;
+          width: 40%;
+
+          img {
+            max-width: 100%;
+            max-height: 100%;
+          }
+        }
+      }
+    }
+    .section-four {
+      height: auto;
+      .container {
+        padding: 100px 0px;
+        display: flex;
+        .pricing {
+        }
+      }
+    }
+  }
+}

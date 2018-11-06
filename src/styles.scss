@@ -1,0 +1,87 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Quicksand-Regular";
+  src: url("./assets/fonts/Quicksand/Quicksand-Regular.ttf");
+}
+@font-face {
+  font-family: "Quicksand-Light";
+  src: url("./assets/fonts/Quicksand/Quicksand-Light.ttf");
+}
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url("./assets/fonts/Quicksand/Quicksand-Bold.ttf");
+}
+@font-face {
+  font-family: "Heebo-Black";
+  src: url("./assets/fonts/Heebo/Heebo-Black.ttf");
+}
+@font-face {
+  font-family: "Heebo-Bold";
+  src: url("./assets/fonts/Heebo/Heebo-Bold.ttf");
+}
+@font-face {
+  font-family: "Heebo-ExtraBold";
+  src: url("./assets/fonts/Heebo/Heebo-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Heebo-Light";
+  src: url("./assets/fonts/Heebo/Heebo-Light.ttf");
+}
+@font-face {
+  font-family: "Heebo-Medium";
+  src: url("./assets/fonts/Heebo/Heebo-Medium.ttf");
+}
+@font-face {
+  font-family: "Heebo-Regular";
+  src: url("./assets/fonts/Heebo/Heebo-Regular.ttf");
+}
+@font-face {
+  font-family: "Heebo-Thin";
+  src: url("./assets/fonts/Heebo/Heebo-Thin.ttf");
+}
+
+/* Common */
+
+.container {
+  margin: 0 auto;
+  width: 60%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Quicksand-Regular", sans-serif, "Arial";
+}
+
+a {
+  color: #fff;
+  font-family: "Quicksand-Regular";
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}

@@ -1,0 +1,43 @@
+<div *ngIf="currentWindowWidth > 768" class="web-navbar" [@navbarAnimation]="navbarTransparent ? 'fadeOut' : 'fadeIn'">
+    <div class="container">
+        <div class="row">
+            <div class="left">
+                <h2 [ngStyle]="linkStyleHandler()">Prism</h2>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a id="home-link" [ngStyle]="linkStyleHandler()" [routerLink]="['/home']">Home</a></li>
+                    <li><a id="projects-link" [ngStyle]="linkStyleHandler()" [routerLink]="['/projects']">Projects</a></li>
+                    <li><a id="pricing" [ngStyle]="linkStyleHandler()" [routerLink]="['/pricing']">Pricing</a></li>
+                    <li><a id="contact" [ngStyle]="linkStyleHandler()" [routerLink]="['/contact']">Contact</a></li>
+                    <li><a id="about" [ngStyle]="linkStyleHandler()" [routerLink]="['/about']">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="currentWindowWidth <= 768" class="mobile-navbar" [@navbarAnimation]="navbarTransparent ? 'fadeOut' : 'fadeIn'">
+    <div class="row" [@mobileRowAnimation]="(navbarTransparent && isOpen) ? 'black' : ''">
+        <div class="container">
+            <div class="left">
+                <h2 [ngStyle]="linkStyleHandler()">Prism</h2>
+            </div>
+            <div class="right" (click)="hamburgerHandler()">
+                <span [ngStyle]="hamburgerStyle()"></span>
+                <span [ngStyle]="hamburgerStyle()"></span>
+                <span [ngStyle]="hamburgerStyle()"></span>
+            </div>
+        </div>
+    </div>
+    <div class="items" [@menuItemsAnimation]="isOpen ? 'open' : 'closed'" [ngStyle]="menuStyle()">
+        <div class="container">
+            <ul>
+                <li><a [ngStyle]="linkStyleHandler()" [routerLink]="['/home']">Home</a></li>
+                <li><a [ngStyle]="linkStyleHandler()" [routerLink]="['/projects']">Projects</a></li>
+                <li><a [ngStyle]="linkStyleHandler()" [routerLink]="['/pricing']">Pricing</a></li>
+                <li><a [ngStyle]="linkStyleHandler()" [routerLink]="['/contact']">Contact</a></li>
+                <li><a [ngStyle]="linkStyleHandler()" [routerLink]="['/about']">About</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

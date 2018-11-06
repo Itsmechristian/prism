@@ -1,0 +1,6 @@
+[1104/153830.545:ERROR:file_io_win.cc(161)] CreateFile C:\Users\sijey\AppData\Local\Temp\karma-41383352\Crashpad\settings.dat: The file or directory is corrupted and unreadable. (0x570)
+[1104/153830.558:ERROR:file_io_win.cc(170)] CreateFile C:\Users\sijey\AppData\Local\Temp\karma-41383352\Crashpad\reports\59f64431-1076-4499-be58-4c4cc32285ad.dmp: The file or directory is corrupted and unreadable. (0x570)
+[1104/153830.558:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[1104/153833.449:ERROR:crash_report_database_win.cc(569)] CreateDirectory C:\Users\sijey\AppData\Local\Temp\karma-41383352\Crashpad: The file or directory is corrupted and unreadable. (0x570)
+[1104/153833.457:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[1104/153833.471:ERROR:crash_report_database_win.cc(569)] CreateDirectory C:\Users\sijey\AppData\Local\Temp\karma-41383352\Crashpad: The file or directory is corrupted and unreadable. (0x570)
